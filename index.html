@@ -1,0 +1,169 @@
+
+<script>
+(function(){
+var _0x5f21="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImJuIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCI+CiAgICA8dGl0bGU+U1IgQ09NTVVOSVRZPC90aXRsZT4KICAgIDxzdHlsZT4KICAgICAgICAqIHsgbWFyZ2luOiAwOyBwYWRkaW5nOiAwOyBib3gtc2l6aW5nOiBib3JkZXItYm94OyB9CiAgICAgICAgCiAgICAgICAgYm9keSwgaHRtbCB7CiAgICAgICAgICAgIHdpZHRoOiAxMDAlOwogICAgICAgICAgICBoZWlnaHQ6IDEwMCU7CiAgICAgICAgICAgIG92ZXJmbG93OiBoaWRkZW47CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMwMDA7CiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnU2Vnb2UgVUknLCBUYWhvbWEsIEdlbmV2YSwgVmVyZGFuYSwgc2Fucy1zZXJpZjsKICAgICAgICAgICAgY29sb3I6ICNmZmY7CiAgICAgICAgfQoKICAgICAgICAvKiAtLS0gQW5pbWF0aW9uIFBhZ2UgU3R5bGVzIC0tLSAqLwogICAgICAgICNhbmltYXRpb24tcGFnZSB7CiAgICAgICAgICAgIHBvc2l0aW9uOiBmaXhlZDsKICAgICAgICAgICAgaW5zZXQ6IDA7CiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyOwogICAgICAgICAgICB6LWluZGV4OiAxMDAwOwogICAgICAgICAgICBiYWNrZ3JvdW5kOiAjMDAwOwogICAgICAgIH0KCiAgICAgICAgLmJhY2tncm91bmQtc3RhcnMgewogICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICAgICAgICAgIHRvcDogMDsKICAgICAgICAgICAgbGVmdDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwMCU7CiAgICAgICAgICAgIGhlaWdodDogMjAwJTsKICAgICAgICAgICAgYmFja2dyb3VuZC1pbWFnZTogCiAgICAgICAgICAgICAgICByYWRpYWwtZ3JhZGllbnQoMnB4IDJweCBhdCAyMHB4IDMwcHgsICNlZWUsIHJnYmEoMCwwLDAsMCkpLAogICAgICAgICAgICAgICAgcmFkaWFsLWdyYWRpZW50KDJweCAycHggYXQgNDBweCA3MHB4LCAjZmZmLCByZ2JhKDAsMCwwLDApKSwKICAgICAgICAgICAgICAgIHJhZGlhbC1ncmFkaWVudCgycHggMnB4IGF0IDUwcHggMTYwcHgsICNkZGQsIHJnYmEoMCwwLDAsMCkpLAogICAgICAgICAgICAgICAgcmFkaWFsLWdyYWRpZW50KDJweCAycHggYXQgOTBweCA0MHB4LCAjZmZmLCByZ2JhKDAsMCwwLDApKSwKICAgICAgICAgICAgICAgIHJhZGlhbC1ncmFkaWVudCgycHggMnB4IGF0IDEzMHB4IDgwcHgsICNmZmYsIHJnYmEoMCwwLDAsMCkpLAogICAgICAgICAgICAgICAgcmFkaWFsLWdyYWRpZW50KDJweCAycHggYXQgMTYwcHggMTIwcHgsICNkZGQsIHJnYmEoMCwwLDAsMCkpOwogICAgICAgICAgICBiYWNrZ3JvdW5kLXJlcGVhdDogcmVwZWF0OwogICAgICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IDIwMHB4IDIwMHB4OwogICAgICAgICAgICBhbmltYXRpb246IG1vdmVTdGFycyAxMDBzIGxpbmVhciBpbmZpbml0ZTsKICAgICAgICAgICAgb3BhY2l0eTogMC40OwogICAgICAgICAgICB6LWluZGV4OiAwOwogICAgICAgIH0KCiAgICAgICAgQGtleWZyYW1lcyBtb3ZlU3RhcnMgewogICAgICAgICAgICBmcm9tIHsgdHJhbnNmb3JtOiB0cmFuc2xhdGUoMCwgMCk7IH0KICAgICAgICAgICAgdG8geyB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTsgfQogICAgICAgIH0KCiAgICAgICAgLm1haW4tY29udGFpbmVyIHsKICAgICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlOwogICAgICAgICAgICB3aWR0aDogOTV2dzsKICAgICAgICAgICAgaGVpZ2h0OiA5NXZoOwogICAgICAgICAgICBib3JkZXI6IDJweCBzb2xpZCByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMSk7CiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyOwogICAgICAgICAgICBvdmVyZmxvdzogaGlkZGVuOwogICAgICAgICAgICBib3JkZXItcmFkaXVzOiAyMHB4OwogICAgICAgICAgICB6LWluZGV4OiA1OwogICAgICAgICAgICBhbmltYXRpb246IGJveEdyb3cgMnMgZWFzZS1vdXQgZm9yd2FyZHM7CiAgICAgICAgfQoKICAgICAgICBAa2V5ZnJhbWVzIGJveEdyb3cgewogICAgICAgICAgICAwJSB7IHRyYW5zZm9ybTogc2NhbGUoMC41KTsgb3BhY2l0eTogMDsgfQogICAgICAgICAgICAxMDAlIHsgdHJhbnNmb3JtOiBzY2FsZSgxKTsgb3BhY2l0eTogMTsgfQogICAgICAgIH0KCiAgICAgICAgLm1haW4tY29udGFpbmVyOjpiZWZvcmUgewogICAgICAgICAgICBjb250ZW50OiAnJzsKICAgICAgICAgICAgcG9zaXRpb246IGFic29sdXRlOwogICAgICAgICAgICB3aWR0aDogMTUwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxNTAlOwogICAgICAgICAgICBiYWNrZ3JvdW5kOiBjb25pYy1ncmFkaWVudCh0cmFuc3BhcmVudCwgI2ZmMDAwMCwgI2ZmN2YwMCwgI2ZmZmYwMCwgIzAwZmYwMCwgIzAwMDBmZiwgIzRiMDA4MiwgIzhiMDBmZiwgdHJhbnNwYXJlbnQpOwogICAgICAgICAgICBhbmltYXRpb246IHJvdGF0ZUJvcmRlciA2cyBsaW5lYXIgaW5maW5pdGU7CiAgICAgICAgICAgIHotaW5kZXg6IC0xOwogICAgICAgIH0KCiAgICAgICAgLm1haW4tY29udGFpbmVyOjphZnRlciB7CiAgICAgICAgICAgIGNvbnRlbnQ6ICcnOwogICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICAgICAgICAgIGluc2V0OiA0cHg7CiAgICAgICAgICAgIGJhY2tncm91bmQ6IHJhZGlhbC1ncmFkaWVudChjaXJjbGUsICMwNTA1MTAgMCUsICMwMDAgMTAwJSk7CiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDE2cHg7CiAgICAgICAgICAgIHotaW5kZXg6IC0xOwogICAgICAgIH0KCiAgICAgICAgQGtleWZyYW1lcyByb3RhdGVCb3JkZXIgewogICAgICAgICAgICAwJSB7IHRyYW5zZm9ybTogcm90YXRlKDBkZWcpOyB9CiAgICAgICAgICAgIDEwMCUgeyB0cmFuc2Zvcm06IHJvdGF0ZSgzNjBkZWcpOyB9CiAgICAgICAgfQoKICAgICAgICAuY29udGVudCB7CiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsKICAgICAgICAgICAgei1pbmRleDogNTA7CiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgICAgICAgICAgIGdhcDogMjVweDsKICAgICAgICB9CgogICAgICAgIC5jZW50ZXItaW1nIHsKICAgICAgICAgICAgd2lkdGg6IDEzMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDEzMHB4OwogICAgICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7CiAgICAgICAgICAgIGJvcmRlcjogNHB4IHNvbGlkICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMCAyNXB4ICNmZmYsIDAgMCA1MHB4ICMwMGZmZmY7CiAgICAgICAgICAgIGFuaW1hdGlvbjogaW1nUHVsc2UgMnMgaW5maW5pdGUgYWx0ZXJuYXRlIGVhc2UtaW4tb3V0OwogICAgICAgICAgICBvYmplY3QtZml0OiBjb3ZlcjsKICAgICAgICB9CgogICAgICAgIEBrZXlmcmFtZXMgaW1nUHVsc2UgewogICAgICAgICAgICAwJSB7IHRyYW5zZm9ybTogc2NhbGUoMC45NSk7IGZpbHRlcjogYnJpZ2h0bmVzcygxKTsgfQogICAgICAgICAgICAxMDAlIHsgdHJhbnNmb3JtOiBzY2FsZSgxLjEpOyBmaWx0ZXI6IGJyaWdodG5lc3MoMS40KTsgfQogICAgICAgIH0KCiAgICAgICAgLnN0YXJ0LWJ0biB7CiAgICAgICAgICAgIHBhZGRpbmc6IDEwcHggMzBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAxNnB4OwogICAgICAgICAgICBmb250LXdlaWdodDogYm9sZDsKICAgICAgICAgICAgY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OwogICAgICAgICAgICBib3JkZXI6IDJweCBzb2xpZCAjMDBmZmZmOwogICAgICAgICAgICBib3JkZXItcmFkaXVzOiA1MHB4OwogICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7CiAgICAgICAgICAgIGxldHRlci1zcGFjaW5nOiAycHg7CiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsKICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsKICAgICAgICAgICAgdHJhbnNpdGlvbjogMC4zczsKICAgICAgICAgICAgYm94LXNoYWRvdzogMCAwIDEwcHggIzAwZmZmZjsKICAgICAgICAgICAgYW5pbWF0aW9uOiBidG5HbG93IDEuNXMgaW5maW5pdGUgYWx0ZXJuYXRlOwogICAgICAgIH0KCiAgICAgICAgLnN0YXJ0LWJ0bjpob3ZlciB7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICMwMGZmZmY7CiAgICAgICAgICAgIGNvbG9yOiAjMDAwOwogICAgICAgICAgICBib3gtc2hhZG93OiAwIDAgMzBweCAjMDBmZmZmOwogICAgICAgIH0KCiAgICAgICAgQGtleWZyYW1lcyBidG5HbG93IHsKICAgICAgICAgICAgZnJvbSB7IGJveC1zaGFkb3c6IDAgMCA1cHggIzAwZmZmZjsgfQogICAgICAgICAgICB0byB7IGJveC1zaGFkb3c6IDAgMCAyMHB4ICMwMGZmZmY7IH0KICAgICAgICB9CgogICAgICAgIC5maXJld29yay1wYXJ0aWNsZSB7CiAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICAgICAgICAgICAgd2lkdGg6IDVweDsKICAgICAgICAgICAgaGVpZ2h0OiA1cHg7CiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDUwJTsKICAgICAgICAgICAgcG9pbnRlci1ldmVudHM6IG5vbmU7CiAgICAgICAgICAgIHotaW5kZXg6IDMwMDA7CiAgICAgICAgfQoKICAgICAgICAvKiAtLS0gUHJlZGljdGlvbiBQYWdlIFN0eWxlcyAoZnJvbSBwcmVkaWN0aW9uX3YzKSAtLS0gKi8KICAgICAgICAjcHJlZGljdGlvbi1wYWdlIHsKICAgICAgICAgICAgZGlzcGxheTogbm9uZTsKICAgICAgICAgICAgcG9zaXRpb246IGZpeGVkOwogICAgICAgICAgICBpbnNldDogMDsKICAgICAgICAgICAgd2lkdGg6IDEwMCU7CiAgICAgICAgICAgIGhlaWdodDogMTAwJTsKICAgICAgICAgICAgei1pbmRleDogMjAwMDsKICAgICAgICAgICAgYmFja2dyb3VuZDogIzAwMDsKICAgICAgICB9CgogICAgICAgICN0aWdyb0ZyYW1lIHsgcG9zaXRpb246IGFic29sdXRlOyBpbnNldDogMDsgd2lkdGg6IDEwMCU7IGhlaWdodDogMTAwJTsgYm9yZGVyOiBub25lOyB6LWluZGV4OiAxOyB9CgogICAgICAgICN3aWRnZXQgewogICAgICAgICAgICBwb3NpdGlvbjogZml4ZWQ7CiAgICAgICAgICAgIHRvcDogNTAlOwogICAgICAgICAgICBsZWZ0OiA1MCU7CiAgICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpOwogICAgICAgICAgICB3aWR0aDogMTgwcHg7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICMwMDA7CiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDI1cHggNXB4IDI1cHggNXB4OwogICAgICAgICAgICBib3JkZXI6IDJweCBzb2xpZDsKICAgICAgICAgICAgYm9yZGVyLWltYWdlOiBsaW5lYXItZ3JhZGllbnQoNDVkZWcsICNmZjAwMDAsICMwMDAwZmYsICNmZmZmMDAsICMwMGZmMDAsICM4YjAwZmYpIDE7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMCAxNXB4IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC4xKTsKICAgICAgICAgICAgei1pbmRleDogOTk5OTsKICAgICAgICAgICAgcGFkZGluZzogMTVweDsKICAgICAgICAgICAgZGlzcGxheTogZmxleDsKICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICAgICAgICAgICAgZ2FwOiAxMnB4OwogICAgICAgICAgICBjdXJzb3I6IGdyYWI7CiAgICAgICAgICAgIHVzZXItc2VsZWN0OiBub25lOwogICAgICAgIH0KCiAgICAgICAgQGtleWZyYW1lcyBtdWx0aUdyb3cgewogICAgICAgICAgICAwJSB7IHRyYW5zZm9ybTogc2NhbGUoMSk7IHRleHQtc2hhZG93OiAwIDAgNXB4ICNmZjAwMDA7IGNvbG9yOiAjZmYwMDAwOyB9CiAgICAgICAgICAgIDIwJSB7IHRyYW5zZm9ybTogc2NhbGUoMS4wMyk7IHRleHQtc2hhZG93OiAwIDAgMTBweCAjMDAwMGZmOyBjb2xvcjogIzAwMDBmZjsgfQogICAgICAgICAgICA0MCUgeyB0cmFuc2Zvcm06IHNjYWxlKDEuMDYpOyB0ZXh0LXNoYWRvdzogMCAwIDE1cHggI2ZmZmYwMDsgY29sb3I6ICNmZmZmMDA7IH0KICAgICAgICAgICAgNjAlIHsgdHJhbnNmb3JtOiBzY2FsZSgxLjAzKTsgdGV4dC1zaGFkb3c6IDAgMCAxMHB4ICMwMGZmMDA7IGNvbG9yOiAjMDBmZjAwOyB9CiAgICAgICAgICAgIDgwJSB7IHRyYW5zZm9ybTogc2NhbGUoMS4wNik7IHRleHQtc2hhZG93OiAwIDAgMTVweCAjOGIwMGZmOyBjb2xvcjogIzhiMDBmZjsgfQogICAgICAgICAgICAxMDAlIHsgdHJhbnNmb3JtOiBzY2FsZSgxKTsgdGV4dC1zaGFkb3c6IDAgMCA1cHggI2ZmZmZmZjsgY29sb3I6ICNmZmZmZmY7IH0KICAgICAgICB9CgogICAgICAgIC5ncm93LXRleHQgewogICAgICAgICAgICBhbmltYXRpb246IG11bHRpR3JvdyAzcyBpbmZpbml0ZSBhbHRlcm5hdGUgZWFzZS1pbi1vdXQ7CiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA5MDA7CiAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7CiAgICAgICAgICAgIGxldHRlci1zcGFjaW5nOiAxcHg7CiAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICAgICAgICB9CgogICAgICAgICNsb2dpbkJveCB7IHdpZHRoOiAxMDAlOyBkaXNwbGF5OiBmbGV4OyBmbGV4LWRpcmVjdGlvbjogY29sdW1uOyBnYXA6IDhweDsgfQogICAgICAgICNsb2dpbkJveCBpbnB1dCB7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICMxMTE7IGJvcmRlcjogMXB4IHNvbGlkICMzMzM7IHBhZGRpbmc6IDhweDsgYm9yZGVyLXJhZGl1czogOHB4OwogICAgICAgICAgICBjb2xvcjogI2ZmZjsgdGV4dC1hbGlnbjogY2VudGVyOyBvdXRsaW5lOiBub25lOyBmb250LXNpemU6IDEycHg7CiAgICAgICAgfQogICAgICAgICNsb2dpbkJveCBidXR0b24gewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoOTBkZWcsICNmZjAwMDAsICM4YjAwZmYpOyBib3JkZXI6IG5vbmU7IHBhZGRpbmc6IDhweDsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogOHB4OyBjb2xvcjogI2ZmZjsgZm9udC13ZWlnaHQ6IGJvbGQ7IGN1cnNvcjogcG9pbnRlcjsgZm9udC1zaXplOiAxMnB4OwogICAgICAgIH0KCiAgICAgICAgI3NpZ25hbEJveCB7IGRpc3BsYXk6IG5vbmU7IGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGdhcDogOHB4OyB9CiAgICAgICAgLnNpZ25hbC1jaXJjbGUgewogICAgICAgICAgICB3aWR0aDogNjVweDsgaGVpZ2h0OiA2NXB4OyBib3JkZXItcmFkaXVzOiA1MCU7IGJvcmRlcjogMnB4IHNvbGlkOwogICAgICAgICAgICBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogY2VudGVyOyBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsgZm9udC1zaXplOiAxNnB4OwogICAgICAgICAgICBmb250LXdlaWdodDogYm9sZDsgYmFja2dyb3VuZDogIzAwMDsgYm94LXNoYWRvdzogMCAwIDE1cHggcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjA1KTsKICAgICAgICB9CgogICAgICAgICN0aW1lckRpc3BsYXkgeyBmb250LXNpemU6IDExcHg7IG9wYWNpdHk6IDAuOTsgfQogICAgICAgIC5icmFuZC1mb290ZXIgeyBmb250LXNpemU6IDlweDsgbWFyZ2luLXRvcDogMnB4OyB9CgogICAgICAgICNjb2luUmFpbiB7IHBvc2l0aW9uOiBhYnNvbHV0ZTsgaW5zZXQ6IDA7IHBvaW50ZXItZXZlbnRzOiBub25lOyB6LWluZGV4OiAwOyB9CiAgICAgICAgLmNvaW4gewogICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7IHdpZHRoOiAxMnB4OyBoZWlnaHQ6IDEycHg7IGJvcmRlci1yYWRpdXM6IDUwJTsKICAgICAgICAgICAgYmFja2dyb3VuZDogcmFkaWFsLWdyYWRpZW50KGNpcmNsZSwgI2ZmZmYwMCwgI2ZmODgwMCk7IG9wYWNpdHk6IDAuMjsKICAgICAgICAgICAgYW5pbWF0aW9uOiBmYWxsIGxpbmVhciBpbmZpbml0ZTsKICAgICAgICB9CiAgICAgICAgQGtleWZyYW1lcyBmYWxsIHsKICAgICAgICAgICAgMCUgeyB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTIwcHgpIHJvdGF0ZSgwZGVnKTsgfQogICAgICAgICAgICAxMDAlIHsgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDEwMHZoKSByb3RhdGUoMzYwZGVnKTsgfQogICAgICAgIH0KICAgIDwvc3R5bGU+CjwvaGVhZD4KPGJvZHk+";
+var _0x1a2b="c29uaml0";
+/* This file is protected. Unauthorized copying is prohibited. */
+document.write(decodeURIComponent(escape(atob(_0x5f21))));
+console.log("Source Protected. Decryption key needed for source access.");
+})();
+</script>
+
+
+    <!-- Animation Page -->
+    <div id="animation-page">
+        <div class="background-stars"></div>
+        <div class="main-container">
+            <div class="content">
+                <img src="https://iili.io/qKmHzHg.md.jpg" alt="Center Image" class="center-img">
+                <button class="start-btn" id="startBtn">START</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Prediction Page -->
+    <div id="prediction-page">
+        <iframe id="tigroFrame" src="https://tkclub2.com/#/register?invitationCode=16352241061">
+<script>
+(function(){
+var _0x5f21="aHR0cHM6Ly90a2NsdWIyLmNvbS8jL2hvbWUvQWxsTG90dGVyeUdhbWVzL1dpbkdvP2lkPTE=";
+var _0x1a2b="c29uaml0";
+/* This file is protected. Unauthorized copying is prohibited. */
+document.write(decodeURIComponent(escape(atob(_0x5f21))));
+console.log("Source Protected. Decryption key needed for source access.");
+})();
+</script>
+</iframe>
+        <div id="widget">
+            <div id="coinRain"></div>
+            <h3 class="grow-text" style="font-size: 14px;">SR COMMUNITY</h3>
+            <div id="loginBox">
+                <input type="password" id="keyInput" placeholder="ENTER KEY">
+                <button onclick="login()">ACTIVATE</button>
+            </div>
+            <div id="signalBox">
+                <div class="grow-text" style="font-size: 10px;">30s LIVE</div>
+                <div class="signal-circle grow-text" id="signalResult">WAIT</div>
+                <div id="timerDisplay" class="grow-text">NEXT: 00s</div>
+            </div>
+            <div class="brand-footer grow-text">SR AI SYSTEM</div>
+        </div>
+    </div>
+
+    <script>
+        const startBtn = document.getElementById('startBtn');
+        const animPage = document.getElementById('animation-page');
+        const predPage = document.getElementById('prediction-page');
+
+        // --- Firework Logic ---
+        function launchFirework(startX, startY) {
+            const particleCount = 80;
+            const colors = ['#ff0000', '#ffff00', '#00ff00', '#00ffff', '#ff00ff', '#ffffff'];
+            for (let i = 0; i < particleCount; i++) {
+                const p = document.createElement('div');
+                p.className = 'firework-particle';
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                p.style.backgroundColor = color;
+                p.style.boxShadow = `0 0 10px ${color}`;
+                document.body.appendChild(p);
+                const angle = (i * (360 / particleCount)) * (Math.PI / 180);
+                const velocity = 3 + Math.random() * 8;
+                const vx = Math.cos(angle) * velocity;
+                const vy = Math.sin(angle) * velocity;
+                p.animate([
+                    { transform: `translate(${startX}px, ${startY}px) scale(1)`, opacity: 1 },
+                    { transform: `translate(${startX + vx * 40}px, ${startY + vy * 40}px) scale(0)`, opacity: 0 }
+                ], { duration: 1000 + Math.random() * 500, easing: 'cubic-bezier(0, .9, .57, 1)' }).onfinish = () => p.remove();
+            }
+        }
+
+        startBtn.addEventListener('click', () => {
+            const rect = startBtn.getBoundingClientRect();
+            const cx = rect.left + rect.width / 2;
+            const cy = rect.top + rect.height / 2;
+            
+            // Full screen fireworks
+            for(let i = 0; i < 25; i++) {
+                setTimeout(() => {
+                    launchFirework(Math.random() * window.innerWidth, Math.random() * window.innerHeight);
+                }, i * 100);
+            }
+            launchFirework(cx, cy);
+
+            setTimeout(() => {
+                animPage.style.display = 'none';
+                predPage.style.display = 'block';
+            }, 2500);
+        });
+
+        // --- Prediction Logic (from prediction_v3) ---
+        const KEY = "SRVIP";
+        const widget = document.getElementById("widget");
+        let isDragging = false;
+        let startX, startY, initialLeft, initialTop;
+
+        widget.addEventListener('mousedown', (e) => {
+            isDragging = true; startX = e.clientX; startY = e.clientY;
+            const rect = widget.getBoundingClientRect();
+            initialLeft = rect.left + rect.width / 2; initialTop = rect.top + rect.height / 2;
+            widget.style.transition = 'none';
+        });
+        document.addEventListener('mousemove', (e) => {
+            if (!isDragging) return;
+            widget.style.left = (initialLeft + (e.clientX - startX)) + 'px';
+            widget.style.top = (initialTop + (e.clientY - startY)) + 'px';
+        });
+        document.addEventListener('mouseup', () => { isDragging = false; widget.style.transition = 'transform 0.1s ease-out'; });
+
+        // Touch Support
+        widget.addEventListener('touchstart', (e) => {
+            isDragging = true; const touch = e.touches[0]; startX = touch.clientX; startY = touch.clientY;
+            const rect = widget.getBoundingClientRect();
+            initialLeft = rect.left + rect.width / 2; initialTop = rect.top + rect.height / 2;
+            widget.style.transition = 'none';
+        }, {passive: true});
+        document.addEventListener('touchmove', (e) => {
+            if (!isDragging) return; const touch = e.touches[0];
+            widget.style.left = (initialLeft + (touch.clientX - startX)) + 'px';
+            widget.style.top = (initialTop + (touch.clientY - startY)) + 'px';
+        }, {passive: false});
+        document.addEventListener('touchend', () => isDragging = false);
+
+        function login() {
+            if (document.getElementById("keyInput").value === KEY) {
+                document.getElementById("loginBox").style.display = "none";
+                document.getElementById("signalBox").style.display = "flex";
+                startCoinRain(); startPrediction();
+            } else {
+                alert("WRONG KEY! JOIN TELEGRAM.");
+                window.open("https://t.me/TRADER_2BROTHERS", "_blank");
+            }
+        }
+
+        function startPrediction() {
+            const resEl = document.getElementById("signalResult"), timEl = document.getElementById("timerDisplay");
+            setInterval(() => {
+                const rem = 30 - (new Date().getSeconds() % 30);
+                timEl.innerText = `NEXT: ${rem}s`;
+                if (rem === 30 || rem === 1) resEl.innerText = "CALC...";
+                else if (rem === 28) {
+                    resEl.innerText = Math.random() > 0.5 ? "BIG" : "SMALL";
+                    if (navigator.vibrate) navigator.vibrate(200);
+                }
+            }, 1000);
+        }
+
+        function startCoinRain() {
+            const container = document.getElementById("coinRain");
+            setInterval(() => {
+                const coin = document.createElement("div");
+                coin.className = "coin";
+                coin.style.left = Math.random() * 100 + "%";
+                coin.style.animationDuration = (Math.random() * 3 + 2) + "s";
+                container.appendChild(coin);
+                setTimeout(() => coin.remove(), 5000);
+            }, 400);
+        }
+    </script>
+</body>
+</html>
